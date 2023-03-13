@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+ name: myconfigmap
+data:
+ wordpress_db_host: wordpress-mysql
+ wordpress_db_user: kamraan
+ pma_user: kamraan
+ pma_host: wordpress-mysql
+ mysql_database: wordpress
+ 
